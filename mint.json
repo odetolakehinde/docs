@@ -1,10 +1,7 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Slack Stickers",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
+  "name": "SlackStickers",
+  "logo": "./images/slack-sticker.svg",
   "favicon": "/favicon.svg",
   "colors": {
     "primary": "#0D9373",
@@ -18,11 +15,11 @@
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@slackstickers.com"
+      "url": "mailto:support@slackstickers.com"
     }
   ],
   "topbarCtaButton": {
-    "name": "Webstie",
+    "name": "Website",
     "url": "https://slackstickers.com"
   },
   "tabs": [
@@ -51,36 +48,20 @@
   "navigation": [
     {
       "group": "Get Started",
+      "pages": ["introduction", "why-we-built-this", "installation"]
+    },
+    {
+      "group": "How It Works",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        "how-it-works/slash-commands",
+        "how-it-works/mention-format",
+        "how-it-works/modal-format",
+        "how-it-works/sending-in-threads"
       ]
     },
     {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
+      "group": "Support & Feedback",
+      "pages": ["reporting-bugs", "support-us"]
     }
   ],
   "footerSocials": {
